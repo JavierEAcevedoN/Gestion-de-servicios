@@ -1,0 +1,60 @@
+[
+    {
+        "nombre": "Javier",
+        "id": "jea21",
+        "direccion": "Casa",
+        "contacto": "Telefono",
+        "categoria": "Nuevo",
+        "servicios": []
+    },
+    {
+        "nombre": "Ignacio",
+        "id": "nac72",
+        "direccion": "Edificio",
+        "contacto": "Whatsapp",
+        "categoria": "Leal",
+        "servicios": []
+    },
+    {
+        "nombre": "Mariana",
+        "id": "mar1",
+        "direccion": "Mansion",
+        "contacto": "Telegram",
+        "categoria": "Regular",
+        "servicios": [
+            "fibra optica"
+        ]
+    },
+    {
+        "nombre": "Elkin",
+        "id": "elc32",
+        "direccion": "Casa",
+        "contacto": "Telefono",
+        "categoria": "Nuevo",
+        "servicios": []
+    },
+    {
+        "nombre": "Angel",
+        "id": "an54",
+        "direccion": "house",
+        "contacto": "telegram",
+        "categoria": "regular",
+        "servicios": []
+    },
+    {
+        "nombre": "Carlos",
+        "id": "c2",
+        "direccion": "House",
+        "contacto": "Telegram",
+        "categoria": "Nuevo",
+        "servicios": []
+    },
+    {
+        "nombre": "Lucho",
+        "id": "fg",
+        "direccion": "Carrera 32 w",
+        "contacto": "111111",
+        "categoria": "Nuevo",
+        "servicios": []
+    }
+]
