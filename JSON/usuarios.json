@@ -56,5 +56,13 @@
         "contacto": "111111",
         "categoria": "Nuevo",
         "servicios": []
+    },
+    {
+        "nombre": "Javier",
+        "id": "65",
+        "direccion": "Case",
+        "contacto": "352487",
+        "categoria": "Nuevo",
+        "servicios": []
     }
 ]

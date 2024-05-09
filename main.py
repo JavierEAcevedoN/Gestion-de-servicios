@@ -1,5 +1,4 @@
 from modulos.datos_json import *
-from modulos.datos_scv import *
 from modulos.crud import CRUD 
 from modulos.servicios import CRUD_servicios
 
