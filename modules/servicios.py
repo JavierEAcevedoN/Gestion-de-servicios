@@ -33,9 +33,11 @@ ingresa la opcion:
 # agregar servicio
 def agregar_servicios(datos):
     datos = list(datos)
+    # pedir la informacion sobre el servicio
     nombre = input("ingresa el nombre del servicio ")
     id = input("ingresa la id del servicio (no repetir con otra id) ")
     caracteristicas = input("ingresa las caracteristicas del servicio ")
+    # verificar si esa id ya esta en uso
     for i in datos:
         if id == i["id"]:
             print("esa id no esta disponible")
@@ -46,6 +48,7 @@ def agregar_servicios(datos):
     except Exception:
         print("ese valor no es valido")
         return datos
+    # agregar el nuevo servicio
     datos.append(
         {
             "servicio":nombre.capitalize(),
@@ -61,9 +64,11 @@ def agregar_servicios(datos):
 # actualizar la informacion del servicio (precio y cantidad)
 def actualizar_servicio(datos):
     datos = list(datos)
+    # buscar el servicio por medio de la id
     id = input("ingresa la id del servicio ")
     for i in range(len(datos)):
         if id == datos[i]["id"]:
+            # pedir la nueva informacion del servicio
             caracteristicas = input("ingresa las nuevas caracteristicas del servicio ")
             try:
                 precio = int(input("ingresa el nuevo precio del servicio "))
@@ -71,23 +76,27 @@ def actualizar_servicio(datos):
             except Exception:
                 print("ese valor no es valido")
                 return datos
+            # actualizar la informacion
             datos[i]["precio"] = precio
             datos[i]["caracteristicas"] = caracteristicas
             datos[i]["cantidad"] = cantidad
             print("informacion del servicio actualizada")
             return datos
+    # si no se encontro la id
     print("no se encontro el servicio")
     return datos
 
-# eliminar servicios
+# eliminar servicios por medio de la id
 def eliminar_servicio(datos):
     datos = list(datos)
     id = input("ingresa la id del servicio ")
+    # verificar si existe la id
     for i in range(len(datos)):
         if id == datos[i]["id"]:
             datos.pop(i)
             print("servicio eliminado")
             return datos
+    # si no existe la id
     print("no se encontro el servicio")
     return datos
 

@@ -4,90 +4,175 @@
         "usuario": "Javier",
         "precio": 250000,
         "caracteristicas": "Internet por cable de alta velocidad",
-        "fecha": "8:34 AM"
+        "cantidad": 3,
+        "fecha": "2024-05-10 19:20:03"
     },
     {
-        "servicio": "Fibra optica",
-        "usuario": "Javier",
-        "precio": 250000,
-        "caracteristicas": "Internet por cable de alta velocidad",
-        "fecha": "8:34 AM"
-    },
-    {
-        "servicio": "Fibra optica",
-        "usuario": "Javier",
-        "precio": 350000,
-        "caracteristicas": "internet de altavelocidad",
-        "fecha": "8:34 AM"
+        "servicio": "Iphone 20",
+        "usuario": "Goku",
+        "precio": 3000000,
+        "caracteristicas": "iphone 20",
+        "cantidad": 100,
+        "fecha": "2024-05-10 19:20:18"
     },
     {
         "servicio": "Fibra optica",
         "usuario": "Javier",
         "precio": 350000,
         "caracteristicas": "internet de altavelocidad",
-        "fecha": "8:34 AM"
+        "cantidad": 30,
+        "fecha": "2024-05-10 19:20:19"
+    },
+    {
+        "servicio": "Iphone 20",
+        "usuario": "Vegeta",
+        "precio": 3000000,
+        "caracteristicas": "iphone 20",
+        "cantidad": 10,
+        "fecha": "20:31"
+    },
+    {
+        "servicio": "Iphone 20",
+        "usuario": "Goku",
+        "precio": 3000000,
+        "caracteristicas": "iphone 20",
+        "cantidad": 100,
+        "fecha": "2024-05-10 19:20:31"
+    },
+    {
+        "servicio": "5 gb pospago",
+        "usuario": "Lucho",
+        "precio": 4500,
+        "caracteristicas": "5gb que se pagan al final del mes",
+        "cantidad": 102,
+        "fecha": "20:43"
+    },
+    {
+        "servicio": "5 gb pospago",
+        "usuario": "Lucho",
+        "precio": 4500,
+        "caracteristicas": "5gb que se pagan al final del mes",
+        "cantidad": 120,
+        "fecha": "2024-05-10 19:20:44"
+    },
+    {
+        "servicio": "5 gb pospago",
+        "usuario": "Lucho",
+        "precio": 4500,
+        "caracteristicas": "5gb que se pagan al final del mes",
+        "cantidad": 5,
+        "fecha": "2024-05-10 20:20:44"
+    },
+    {
+        "servicio": "14gb paquete",
+        "usuario": "Carlos",
+        "precio": 7000,
+        "caracteristicas": "14g de internet",
+        "cantidad": 20,
+        "fecha": "2024-05-10 21:08:03"
+    },
+    {
+        "servicio": "14gb paquete",
+        "usuario": "Carlos",
+        "precio": 7000,
+        "caracteristicas": "14g de internet",
+        "cantidad": 323,
+        "fecha": "2024-05-10 21:21:51"
+    },
+    {
+        "servicio": "Starlink",
+        "usuario": "Carlos",
+        "precio": 450000,
+        "caracteristicas": "Internet satelital de alta velocidad",
+        "cantidad": 21,
+        "fecha": "2024-05-10 21:22:26"
     },
     {
         "servicio": "5gb pospago",
         "usuario": "Javier",
         "precio": 3000,
         "caracteristicas": "5gb de internet que se pagan al final del mes",
-        "fecha": "8:34 AM"
+        "cantidad": 43,
+        "fecha": "2024-05-10 21:22:51"
     },
     {
         "servicio": "Starlink",
-        "usuario": "Ignacio",
+        "usuario": "Goku",
         "precio": 450000,
         "caracteristicas": "Internet satelital de alta velocidad",
-        "fecha": "8:34 AM"
+        "cantidad": 5,
+        "fecha": "2024-05-10 21:25:47"
     },
     {
         "servicio": "Starlink",
-        "usuario": "Ignacio",
+        "usuario": "Vegeta",
         "precio": 450000,
         "caracteristicas": "Internet satelital de alta velocidad",
-        "fecha": "8:34 AM"
+        "cantidad": 3,
+        "fecha": "2024-05-10 21:25:56"
     },
     {
-        "servicio": "Starlink",
-        "usuario": "Ignacio",
-        "precio": 450000,
-        "caracteristicas": "Internet satelital de alta velocidad",
-        "fecha": "8:34 AM"
+        "servicio": "Iphone 20",
+        "usuario": "Goku",
+        "precio": 3000000,
+        "caracteristicas": "iphone 20",
+        "cantidad": 6,
+        "fecha": "2024-05-10 21:34:36"
     },
     {
-        "servicio": "Starlink",
-        "usuario": "Ignacio",
-        "precio": 450000,
-        "caracteristicas": "Internet satelital de alta velocidad",
-        "fecha": "8:34 AM"
+        "servicio": "Iphone 20",
+        "usuario": "Vegeta",
+        "precio": 3000000,
+        "caracteristicas": "iphone 20",
+        "cantidad": 1,
+        "fecha": "2024-05-10 21:36:04"
     },
     {
-        "servicio": "14gb paquete",
+        "servicio": "Iphone 20",
+        "usuario": "Javier",
+        "precio": 4000000,
+        "caracteristicas": "iphone 20",
+        "cantidad": 1,
+        "fecha": "2024-05-10 21:38:13"
+    },
+    {
+        "servicio": "Iphone 20",
+        "usuario": "Javier",
+        "precio": 4000000,
+        "caracteristicas": "iphone 20",
+        "cantidad": 99,
+        "fecha": "2024-05-10 21:38:59"
+    },
+    {
+        "servicio": "Iphone 20",
+        "usuario": "Javier",
+        "precio": 5000000,
+        "caracteristicas": "iphone 20",
+        "cantidad": 500,
+        "fecha": "2024-05-10 21:40:22"
+    },
+    {
+        "servicio": "Iphone 20",
+        "usuario": "Mariana",
+        "precio": 5000000,
+        "caracteristicas": "iphone 20",
+        "cantidad": 51,
+        "fecha": "2024-05-10 21:40:43"
+    },
+    {
+        "servicio": "Iphone 20",
         "usuario": "Elkin",
-        "precio": 7500,
-        "caracteristicas": "14gb de internet que se pagan a pricipio de mes",
-        "fecha": "8:34 AM"
+        "precio": 5000000,
+        "caracteristicas": "iphone 20",
+        "cantidad": 400,
+        "fecha": "2024-05-10 21:41:10"
     },
     {
-        "servicio": "14gb paquete",
-        "usuario": "Elkin",
-        "precio": 7500,
-        "caracteristicas": "14gb de internet que se pagan a pricipio de mes",
-        "fecha": "8:34 AM"
-    },
-    {
-        "servicio": "14gb paquete",
-        "usuario": "Elkin",
-        "precio": 7000,
-        "caracteristicas": "14g de internet",
-        "fecha": "8:34 AM"
-    },
-    {
-        "servicio": "14gb paquete",
-        "usuario": "Angel",
-        "precio": 7000,
-        "caracteristicas": "14g de internet",
-        "fecha": "8:34 AM"
+        "servicio": "Iphone 20",
+        "usuario": "Ignacio",
+        "precio": 5000000,
+        "caracteristicas": "iphone 20",
+        "cantidad": 49,
+        "fecha": "2024-05-10 21:41:48"
     }
 ]

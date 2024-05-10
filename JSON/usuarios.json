@@ -17,7 +17,8 @@
         "contacto": "Whatsapp",
         "categoria": "Leal",
         "servicios": [
-            "Starlink"
+            "Starlink",
+            "Iphone 20"
         ]
     },
     {
@@ -27,7 +28,8 @@
         "contacto": "Telegram",
         "categoria": "Regular",
         "servicios": [
-            "fibra optica"
+            "fibra optica",
+            "Iphone 20"
         ]
     },
     {
@@ -37,7 +39,8 @@
         "contacto": "Telefono",
         "categoria": "Nuevo",
         "servicios": [
-            "14gb paquete"
+            "14gb paquete",
+            "Iphone 20"
         ]
     },
     {
@@ -56,7 +59,9 @@
         "direccion": "House",
         "contacto": "Telegram",
         "categoria": "Nuevo",
-        "servicios": []
+        "servicios": [
+            "14gb paquete"
+        ]
     },
     {
         "nombre": "Lucho",
@@ -64,7 +69,9 @@
         "direccion": "Carrera 32 w",
         "contacto": "111111",
         "categoria": "Nuevo",
-        "servicios": []
+        "servicios": [
+            "5 gb pospago"
+        ]
     },
     {
         "nombre": "Javier",
@@ -72,6 +79,32 @@
         "direccion": "Case",
         "contacto": "352487",
         "categoria": "Nuevo",
-        "servicios": []
+        "servicios": [
+            "Plan oozaru",
+            "Iphone 20"
+        ]
+    },
+    {
+        "nombre": "Goku",
+        "id": "gk",
+        "direccion": "Tierra",
+        "contacto": "Bulma",
+        "categoria": "Leal",
+        "servicios": [
+            "Plan oozaru",
+            "Iphone 20",
+            "Starlink"
+        ]
+    },
+    {
+        "nombre": "Vegeta",
+        "id": "vg",
+        "direccion": "Vegita",
+        "contacto": "Telegram",
+        "categoria": "Regular",
+        "servicios": [
+            "Iphone 20",
+            "Starlink"
+        ]
     }
 ]

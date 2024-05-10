@@ -3,36 +3,29 @@
         "servicio": "Fibra optica",
         "precio": 350000,
         "caracteristicas": "internet de altavelocidad",
-        "vendido": 389,
+        "vendido": 419,
         "id": "FB"
     },
     {
         "servicio": "5gb pospago",
         "precio": 3000,
         "caracteristicas": "5gb de internet que se pagan al final del mes",
-        "vendido": 1610,
+        "vendido": 1653,
         "id": "5p"
     },
     {
         "servicio": "Starlink",
         "precio": 450000,
         "caracteristicas": "Internet satelital de alta velocidad",
-        "vendido": 1434,
+        "vendido": 1463,
         "id": "str"
     },
     {
         "servicio": "14gb paquete",
         "precio": 7000,
         "caracteristicas": "14g de internet",
-        "vendido": 592,
+        "vendido": 1058,
         "id": "14g"
-    },
-    {
-        "servicio": "5 gb pospago",
-        "precio": 4500,
-        "caracteristicas": "5gb que se pagan al final del mes",
-        "vendido": 123,
-        "id": "ge"
     },
     {
         "servicio": "Internet ilimitado",
@@ -40,5 +33,19 @@
         "caracteristicas": "no hay una cantidad fija de internet, lo que significa que se puede usar el internet que quiera",
         "vendido": 100,
         "id": "it"
+    },
+    {
+        "servicio": "Plan oozaru",
+        "precio": 50000,
+        "caracteristicas": "interne ilimitado ",
+        "vendido": 1250,
+        "id": "po"
+    },
+    {
+        "servicio": "Iphone 20",
+        "precio": 5000000,
+        "caracteristicas": "iphone 20",
+        "vendido": 1329,
+        "id": "i20"
     }
 ]

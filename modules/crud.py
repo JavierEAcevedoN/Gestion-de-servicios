@@ -35,15 +35,18 @@ ingresa la opcion:
 
 # crear usuario
 def crear_usuario(datos):
+    # pedir la informacion
     datos = list(datos)
     nombre = input("ingresa el nombre del usuario ")
     id = input("ingresa la id del usuario (no repetir con otra id) ")
+    # verificar si la id ya existe
     for i in datos:
         if id == i["id"]:
             print("esa id no esta disponible")
             return datos
     direccion = input("ingresa la direccion del usuario ")
     contacto = input("ingresa el contacto del usuario ")
+    # si no existe la id, se crea el usuario
     datos.append(
         {
             "nombre":nombre.capitalize(),
@@ -60,6 +63,7 @@ def crear_usuario(datos):
 # mostrar la informacion del usuario
 def leer_usuario(datos):
     datos = list(datos)
+    # se muestra la informacion del usuario por medio de la id
     id = input("ingresa la id del usuario ")
     for i in datos:
         if id == i["id"]:
@@ -72,22 +76,20 @@ def leer_usuario(datos):
 # actualizar la informacion del usuario (direccion, contacto, categoria)
 def actualizar_usuario(datos):
     datos = list(datos)
-    choice = "0"
+    # buscar el usuario por medio de la id
     id = input("ingresa la id del usuario ")
     for i in range(len(datos)):
         if id == datos[i]["id"]:
-            choice = input("1 para la informacion, 2 para los servicios ")
-            if choice == "1":
-                direccion = input("ingresa la direccion del usuario ")
-                contacto = input("ingresa el contacto del usuario ")
-                categoria = input("ingresa la categoria del usuario (nuevo, regular o leal) ")
-                datos[i]["direccion"] = direccion.capitalize()
-                datos[i]["contacto"] = contacto.capitalize()
-                datos[i]["categoria"] = categoria.capitalize()
-                print("informacion del usuario actualizada")
-                return datos
-            elif choice == "2":
-                datos[i]["servicios"].append(input("ingresa el nuevo servicio del usuario "))
+            # pedir los datos
+            direccion = input("ingresa la direccion del usuario ")
+            contacto = input("ingresa el contacto del usuario ")
+            categoria = input("ingresa la categoria del usuario (nuevo, regular o leal) ")
+            # actualizar los datos
+            datos[i]["direccion"] = direccion.capitalize()
+            datos[i]["contacto"] = contacto.capitalize()
+            datos[i]["categoria"] = categoria.capitalize()
+            print("informacion del usuario actualizada")
+            return datos
     print("no se encontro el usuario")
     return datos
 
@@ -95,6 +97,7 @@ def actualizar_usuario(datos):
 def eliminar_usuario(datos):
     datos = list(datos)
     id = input("ingresa la id del usuario ")
+    # eliminar el usuario por medio de la id
     for i in range(len(datos)):
         if id == datos[i]["id"]:
             datos.pop(i)
