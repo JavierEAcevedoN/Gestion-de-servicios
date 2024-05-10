@@ -1,0 +1,23 @@
+[
+    {
+        "servicio": "Fibra optica",
+        "precio": 250000,
+        "caracteristicas": "Internet por cable de alta velocidad",
+        "vendido": 5,
+        "id": "FB"
+    },
+    {
+        "servicio": "5gb pospago",
+        "precio": 2000,
+        "caracteristicas": "te",
+        "vendido": 1410,
+        "id": "5p"
+    },
+    {
+        "servicio": "Starlink",
+        "precio": 450000,
+        "caracteristicas": "Internet satelital de alta velocidad",
+        "vendido": 1000,
+        "id": "str"
+    }
+]

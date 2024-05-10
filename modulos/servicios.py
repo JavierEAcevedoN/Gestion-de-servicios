@@ -1,4 +1,4 @@
-# modulo de administrador C.R.U.D
+# modulo de servicios
 def CRUD_servicios(datos):
     datos = list(datos) 
     while True:
@@ -35,12 +35,14 @@ def agregar_servicios(datos):
     datos = list(datos)
     nombre = input("ingresa el nombre del servicio ")
     id = input("ingresa la id del servicio (no repetir con otra id) ")
+    caracteristicas = input("ingresa las caracteristicas del servicio ")
     for i in datos:
         if id == i["id"]:
             print("esa id no esta disponible")
             return datos
     try:
         precio = int(input("ingresa el precio del servicio "))
+        cantidad = int(input("ingresa la catidad disponible del servicio "))
     except Exception:
         print("ese valor no es valido")
         return datos
@@ -48,24 +50,30 @@ def agregar_servicios(datos):
         {
             "servicio":nombre.capitalize(),
             "precio":precio,
+            "caracteristicas":caracteristicas,
+            "cantidad":cantidad,
             "id":id
         }
     )
     print("servicio resgistrado")
     return datos
 
-# actualizar la informacion del servicio (precio)
+# actualizar la informacion del servicio (precio y cantidad)
 def actualizar_servicio(datos):
     datos = list(datos)
     id = input("ingresa la id del servicio ")
     for i in range(len(datos)):
         if id == datos[i]["id"]:
+            caracteristicas = input("ingresa las nuevas caracteristicas del servicio ")
             try:
                 precio = int(input("ingresa el nuevo precio del servicio "))
+                cantidad = int(input("ingresa la nueva catidad disponible del servicio "))
             except Exception:
                 print("ese valor no es valido")
                 return datos
             datos[i]["precio"] = precio
+            datos[i]["caracteristicas"] = caracteristicas
+            datos[i]["cantidad"] = cantidad
             print("informacion del servicio actualizada")
             return datos
     print("no se encontro el servicio")
@@ -87,8 +95,7 @@ def eliminar_servicio(datos):
 def listar_servicios(datos):
     datos = list(datos)
     for i in datos:
-        print(i["servicio"])
-        print(i["precio"])
-        print(i["id"])
+        for j in i:
+            print(j,":",i[j])
         print("")
     return datos
