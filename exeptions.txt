@@ -1,0 +1,1 @@
+aqui se van a guardar cada una de las exepciones que ocurran en el codigo.

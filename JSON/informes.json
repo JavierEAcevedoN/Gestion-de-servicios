@@ -1,0 +1,93 @@
+[
+    {
+        "servicio": "Fibra optica",
+        "usuario": "Javier",
+        "precio": 250000,
+        "caracteristicas": "Internet por cable de alta velocidad",
+        "fecha": "8:34 AM"
+    },
+    {
+        "servicio": "Fibra optica",
+        "usuario": "Javier",
+        "precio": 250000,
+        "caracteristicas": "Internet por cable de alta velocidad",
+        "fecha": "8:34 AM"
+    },
+    {
+        "servicio": "Fibra optica",
+        "usuario": "Javier",
+        "precio": 350000,
+        "caracteristicas": "internet de altavelocidad",
+        "fecha": "8:34 AM"
+    },
+    {
+        "servicio": "Fibra optica",
+        "usuario": "Javier",
+        "precio": 350000,
+        "caracteristicas": "internet de altavelocidad",
+        "fecha": "8:34 AM"
+    },
+    {
+        "servicio": "5gb pospago",
+        "usuario": "Javier",
+        "precio": 3000,
+        "caracteristicas": "5gb de internet que se pagan al final del mes",
+        "fecha": "8:34 AM"
+    },
+    {
+        "servicio": "Starlink",
+        "usuario": "Ignacio",
+        "precio": 450000,
+        "caracteristicas": "Internet satelital de alta velocidad",
+        "fecha": "8:34 AM"
+    },
+    {
+        "servicio": "Starlink",
+        "usuario": "Ignacio",
+        "precio": 450000,
+        "caracteristicas": "Internet satelital de alta velocidad",
+        "fecha": "8:34 AM"
+    },
+    {
+        "servicio": "Starlink",
+        "usuario": "Ignacio",
+        "precio": 450000,
+        "caracteristicas": "Internet satelital de alta velocidad",
+        "fecha": "8:34 AM"
+    },
+    {
+        "servicio": "Starlink",
+        "usuario": "Ignacio",
+        "precio": 450000,
+        "caracteristicas": "Internet satelital de alta velocidad",
+        "fecha": "8:34 AM"
+    },
+    {
+        "servicio": "14gb paquete",
+        "usuario": "Elkin",
+        "precio": 7500,
+        "caracteristicas": "14gb de internet que se pagan a pricipio de mes",
+        "fecha": "8:34 AM"
+    },
+    {
+        "servicio": "14gb paquete",
+        "usuario": "Elkin",
+        "precio": 7500,
+        "caracteristicas": "14gb de internet que se pagan a pricipio de mes",
+        "fecha": "8:34 AM"
+    },
+    {
+        "servicio": "14gb paquete",
+        "usuario": "Elkin",
+        "precio": 7000,
+        "caracteristicas": "14g de internet",
+        "fecha": "8:34 AM"
+    },
+    {
+        "servicio": "14gb paquete",
+        "usuario": "Angel",
+        "precio": 7000,
+        "caracteristicas": "14g de internet",
+        "fecha": "8:34 AM"
+    }
+]

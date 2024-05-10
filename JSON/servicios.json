@@ -1,37 +1,44 @@
 [
     {
         "servicio": "Fibra optica",
-        "precio": 250000,
-        "caracteristicas": "Internet por cable de alta velocidad",
-        "cantidad": 5000,
+        "precio": 350000,
+        "caracteristicas": "internet de altavelocidad",
+        "cantidad": 4750,
         "id": "FB"
     },
     {
         "servicio": "5gb pospago",
         "precio": 3000,
         "caracteristicas": "5gb de internet que se pagan al final del mes",
-        "cantidad": 99300,
+        "cantidad": 99100,
         "id": "5p"
     },
     {
         "servicio": "Starlink",
         "precio": 450000,
         "caracteristicas": "Internet satelital de alta velocidad",
-        "cantidad": 1000,
+        "cantidad": 566,
         "id": "str"
     },
     {
         "servicio": "14gb paquete",
-        "precio": 7500,
-        "caracteristicas": "14gb de internet que se pagan a pricipio de mes",
-        "cantidad": 120000,
+        "precio": 7000,
+        "caracteristicas": "14g de internet",
+        "cantidad": 199700,
         "id": "14g"
     },
     {
         "servicio": "Internet ilimitado",
         "precio": 55000,
         "caracteristicas": "no hay una cantidad fija de internet, lo que significa que se puede usar el internet que quiera",
-        "cantidad": 100000,
+        "cantidad": 99900,
         "id": "it"
+    },
+    {
+        "servicio": "5 gb pospago",
+        "precio": 4500,
+        "caracteristicas": "5gb que se pagan al final del mes",
+        "cantidad": 19877,
+        "id": "ge"
     }
 ]

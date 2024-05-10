@@ -81,9 +81,9 @@ def actualizar_usuario(datos):
                 direccion = input("ingresa la direccion del usuario ")
                 contacto = input("ingresa el contacto del usuario ")
                 categoria = input("ingresa la categoria del usuario (nuevo, regular o leal) ")
-                datos[i]["direccion"] = direccion
-                datos[i]["contacto"] = contacto
-                datos[i]["categoria"] = categoria
+                datos[i]["direccion"] = direccion.capitalize()
+                datos[i]["contacto"] = contacto.capitalize()
+                datos[i]["categoria"] = categoria.capitalize()
                 print("informacion del usuario actualizada")
                 return datos
             elif choice == "2":

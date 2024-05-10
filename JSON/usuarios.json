@@ -5,7 +5,10 @@
         "direccion": "Casa",
         "contacto": "Telefono",
         "categoria": "Nuevo",
-        "servicios": []
+        "servicios": [
+            "Fibra optica",
+            "5gb pospago"
+        ]
     },
     {
         "nombre": "Ignacio",
@@ -13,7 +16,9 @@
         "direccion": "Edificio",
         "contacto": "Whatsapp",
         "categoria": "Leal",
-        "servicios": []
+        "servicios": [
+            "Starlink"
+        ]
     },
     {
         "nombre": "Mariana",
@@ -31,15 +36,19 @@
         "direccion": "Casa",
         "contacto": "Telefono",
         "categoria": "Nuevo",
-        "servicios": []
+        "servicios": [
+            "14gb paquete"
+        ]
     },
     {
         "nombre": "Angel",
         "id": "an54",
-        "direccion": "house",
-        "contacto": "telegram",
-        "categoria": "regular",
-        "servicios": []
+        "direccion": "Casa",
+        "contacto": "Telegram",
+        "categoria": "Leal",
+        "servicios": [
+            "14gb paquete"
+        ]
     },
     {
         "nombre": "Carlos",
