@@ -9,9 +9,9 @@ def opc_reportes(ventas,servicios,informes):
             choice = int(input("""
 Modulo de reportes
 ingresa la opcion: 
-(1) Reporte de cantidad de servicios ofrecidos.
-(2) Reporte de servicios populares.
-(3) informes de usuarios adquiriendo productos.
+(1) Reporte de cantidad de productos/servicios ofrecidos.
+(2) Reporte de productos/servicios populares.
+(3) informes de usuarios adquiriendo productos/servicios.
 (0) Terminar. """))
         
         except Exception:

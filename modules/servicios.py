@@ -5,13 +5,13 @@ def CRUD_servicios(datos):
         choice = -1
         try:
             choice = int(input("""
-Modulo de servicios
+Modulo de productos/servicios
 los cambios solo se guardan cuando termine el programa
 ingresa la opcion: 
-(1) Agregar servicio.
-(2) Actualizar servicio.
-(3) Eliminar servicio.
-(4) Listar servicios.
+(1) Agregar producto/servicio.
+(2) Actualizar producto/servicio.
+(3) Eliminar producto/servicio.
+(4) Listar productos/servicios.
 (0) Terminar. """))
         
         except Exception:
@@ -30,25 +30,25 @@ ingresa la opcion:
             break
     return datos
 
-# agregar servicio
+# agregar producto/servicio
 def agregar_servicios(datos):
     datos = list(datos)
-    # pedir la informacion sobre el servicio
-    nombre = input("ingresa el nombre del servicio ")
-    id = input("ingresa la id del servicio (no repetir con otra id) ")
-    caracteristicas = input("ingresa las caracteristicas del servicio ")
+    # pedir la informacion sobre el producto/servicio
+    nombre = input("ingresa el nombre del producto/servicio ")
+    id = input("ingresa la id del producto/servicio (no repetir con otra id) ")
+    caracteristicas = input("ingresa las caracteristicas del producto/servicio ")
     # verificar si esa id ya esta en uso
     for i in datos:
         if id == i["id"]:
             print("esa id no esta disponible")
             return datos
     try:
-        precio = int(input("ingresa el precio del servicio "))
-        cantidad = int(input("ingresa la catidad disponible del servicio "))
+        precio = int(input("ingresa el precio del producto/servicio "))
+        cantidad = int(input("ingresa la catidad disponible del producto/servicio "))
     except Exception:
         print("ese valor no es valido")
         return datos
-    # agregar el nuevo servicio
+    # agregando el nuevo producto/servicio
     datos.append(
         {
             "servicio":nombre.capitalize(),
@@ -61,18 +61,18 @@ def agregar_servicios(datos):
     print("servicio resgistrado")
     return datos
 
-# actualizar la informacion del servicio (precio y cantidad)
+# actualizar la informacion del producto/servicio (precio y cantidad)
 def actualizar_servicio(datos):
     datos = list(datos)
-    # buscar el servicio por medio de la id
-    id = input("ingresa la id del servicio ")
+    # buscar el producto/servicio por medio de la id
+    id = input("ingresa la id del producto/servicio ")
     for i in range(len(datos)):
         if id == datos[i]["id"]:
-            # pedir la nueva informacion del servicio
-            caracteristicas = input("ingresa las nuevas caracteristicas del servicio ")
+            # pedir la nueva informacion del producto/servicio
+            caracteristicas = input("ingresa las nuevas caracteristicas del producto/servicio ")
             try:
-                precio = int(input("ingresa el nuevo precio del servicio "))
-                cantidad = int(input("ingresa la nueva catidad disponible del servicio "))
+                precio = int(input("ingresa el nuevo precio del producto/servicio "))
+                cantidad = int(input("ingresa la nueva catidad disponible del producto/servicio "))
             except Exception:
                 print("ese valor no es valido")
                 return datos
@@ -80,27 +80,27 @@ def actualizar_servicio(datos):
             datos[i]["precio"] = precio
             datos[i]["caracteristicas"] = caracteristicas
             datos[i]["cantidad"] = cantidad
-            print("informacion del servicio actualizada")
+            print("informacion del producto/servicio actualizada")
             return datos
     # si no se encontro la id
-    print("no se encontro el servicio")
+    print("no se encontro el producto/servicio")
     return datos
 
-# eliminar servicios por medio de la id
+# eliminar productos/servicios por medio de la id
 def eliminar_servicio(datos):
     datos = list(datos)
-    id = input("ingresa la id del servicio ")
+    id = input("ingresa la id del producto/servicio ")
     # verificar si existe la id
     for i in range(len(datos)):
         if id == datos[i]["id"]:
             datos.pop(i)
-            print("servicio eliminado")
+            print("producto/servicio eliminado")
             return datos
     # si no existe la id
-    print("no se encontro el servicio")
+    print("no se encontro el producto/servicio")
     return datos
 
-# mostrar todos los servicios
+# mostrar todos los productos/servicios
 def listar_servicios(datos):
     datos = list(datos)
     for i in datos:

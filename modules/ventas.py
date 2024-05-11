@@ -106,6 +106,7 @@ def agregar_ventas(usuarios,ventas,servicios,informes):
                         "precio": venta["precio"],
                         "caracteristicas":venta["caracteristicas"],
                         "cantidad":vendido,
+                        "total":vendido*venta["precio"],
                         "fecha": f"{time_complete()}"
                     }
                 )
@@ -128,6 +129,7 @@ def agregar_ventas(usuarios,ventas,servicios,informes):
                 "precio": venta["precio"],
                 "caracteristicas":venta["caracteristicas"],
                 "cantidad":vendido,
+                "total":vendido*venta["precio"],
                 "fecha": f"{time_complete()}"
             }
         )

@@ -1,1 +1,4 @@
 aqui se van a guardar cada una de las exepciones que ocurran en el codigo.
+2024-05-11 03:05:49: invalid literal for int() with base 10: 'grgtrgrggtr'
+2024-05-11 03:05:55: invalid literal for int() with base 10: '556ghgç'
+2024-05-11 03:05:59: invalid literal for int() with base 10: 'guyguygç'

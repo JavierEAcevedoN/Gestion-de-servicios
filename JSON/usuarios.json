@@ -29,7 +29,8 @@
         "categoria": "Regular",
         "servicios": [
             "fibra optica",
-            "Iphone 20"
+            "Iphone 20",
+            "Samsung 24s ultra"
         ]
     },
     {
@@ -88,8 +89,8 @@
         "nombre": "Goku",
         "id": "gk",
         "direccion": "Tierra",
-        "contacto": "Bulma",
-        "categoria": "Leal",
+        "contacto": "Instagram",
+        "categoria": "Regular",
         "servicios": [
             "Plan oozaru",
             "Iphone 20",

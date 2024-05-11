@@ -3,6 +3,7 @@ from modules.crud import CRUD
 from modules.servicios import CRUD_servicios
 from modules.ventas import opc_ventas
 from modules.reportes import opc_reportes
+from modules.secondary_funtions import exeptions
 
 # importe de los datos
 usuarios = cargar_datos_json("JSON/usuarios.json")
@@ -24,7 +25,8 @@ ingresa la opcion:
 (4) Modulo de ventas.
 (0) Terminar. """))
     
-    except Exception:
+    except Exception as e:
+        exeptions(e)
         print("ese valor no es valido")
 
     if choice == 1:

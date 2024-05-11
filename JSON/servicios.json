@@ -47,5 +47,12 @@
         "caracteristicas": "iphone 20",
         "cantidad": 20,
         "id": "i20"
+    },
+    {
+        "servicio": "Samsung 24s ultra",
+        "precio": 3000000,
+        "caracteristicas": "512GB de espacio 8GB de ram camara de 30 megapixeles un procesador snapdragon de 8 gen y bateria de 7000maH",
+        "cantidad": 198300,
+        "id": "s24"
     }
 ]

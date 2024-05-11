@@ -57,7 +57,7 @@ def crear_usuario(datos):
             "servicios": []
         }
     )
-    print("participante resgistrado")
+    print("usuario resgistrado")
     return datos
 
 # mostrar la informacion del usuario
@@ -110,7 +110,7 @@ def eliminar_usuario(datos):
 def listar_usuarios(datos):
     datos = list(datos)
     for i in datos:
-        print(i["nombre"])
-        print(i["id"])
+        print("nombre :",i["nombre"])
+        print("id :",i["id"])
         print("")
     return datos
