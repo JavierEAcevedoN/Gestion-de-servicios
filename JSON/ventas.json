@@ -54,5 +54,19 @@
         "caracteristicas": "512GB de espacio 8GB de ram camara de 30 megapixeles un procesador snapdragon de 8 gen y bateria de 7000maH",
         "vendido": 1700,
         "id": "s24"
+    },
+    {
+        "servicio": "Laptop msi gf63 thin",
+        "precio": 3700000,
+        "caracteristicas": "i7-12750h, rtx 4050 4gb, 32GB ram, 1TB, 144Hz,16.5''",
+        "vendido": 102,
+        "id": "gf63"
+    },
+    {
+        "servicio": "Wom",
+        "precio": 26000,
+        "caracteristicas": "minutos + llamadas + redes sociales ilimitado + 40GB",
+        "vendido": 13,
+        "id": "w"
     }
 ]

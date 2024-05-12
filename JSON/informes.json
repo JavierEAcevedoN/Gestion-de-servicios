@@ -205,5 +205,41 @@
         "cantidad": 1000,
         "total": 3000000000,
         "fecha": "2024-05-11 02:37:44"
+    },
+    {
+        "servicio": "Laptop msi gf63 thin",
+        "usuario": "Kevin",
+        "precio": 3700000,
+        "caracteristicas": "i7-12750h, rtx 4050 4gb, 32GB ram, 1TB, 144Hz,16.5''",
+        "cantidad": 2,
+        "total": 7400000,
+        "fecha": "2024-05-11 20:52:01"
+    },
+    {
+        "servicio": "Laptop msi gf63 thin",
+        "usuario": "Joel",
+        "precio": 3700000,
+        "caracteristicas": "i7-12750h, rtx 4050 4gb, 32GB ram, 1TB, 144Hz,16.5''",
+        "cantidad": 100,
+        "total": 370000000,
+        "fecha": "2024-05-11 21:24:35"
+    },
+    {
+        "servicio": "Wom",
+        "usuario": "David",
+        "precio": 26000,
+        "caracteristicas": "minutos + llamadas + redes sociales ilimitado + 40GB",
+        "cantidad": 10,
+        "total": 260000,
+        "fecha": "2024-05-11 23:32:27"
+    },
+    {
+        "servicio": "Wom",
+        "usuario": "David",
+        "precio": 26000,
+        "caracteristicas": "minutos + llamadas + redes sociales ilimitado + 40GB",
+        "cantidad": 3,
+        "total": 78000,
+        "fecha": "2024-05-11 23:32:47"
     }
 ]

@@ -43,9 +43,9 @@
     },
     {
         "servicio": "Iphone 20",
-        "precio": 5000000,
-        "caracteristicas": "iphone 20",
-        "cantidad": 20,
+        "precio": 41000000,
+        "caracteristicas": "el iphone 20 trae 64GB ram, 1PB de espacio, sonido envolvente 6D, pantalla en 16K a 8000Hz",
+        "cantidad": 2000,
         "id": "i20"
     },
     {
@@ -54,5 +54,26 @@
         "caracteristicas": "512GB de espacio 8GB de ram camara de 30 megapixeles un procesador snapdragon de 8 gen y bateria de 7000maH",
         "cantidad": 198300,
         "id": "s24"
+    },
+    {
+        "servicio": "Laptop msi gf63 thin",
+        "precio": 3700000,
+        "caracteristicas": "i7-12750h, rtx 4050 4gb, 32GB ram, 1TB, 144Hz,16.5''",
+        "cantidad": 3898,
+        "id": "gf63"
+    },
+    {
+        "servicio": "Wom",
+        "precio": 26000,
+        "caracteristicas": "minutos + llamadas + redes sociales ilimitado + 40GB",
+        "cantidad": 1987,
+        "id": "w"
+    },
+    {
+        "servicio": "Samsung j7 prime",
+        "precio": 500000,
+        "caracteristicas": "muy durable",
+        "cantidad": 100000,
+        "id": "j7"
     }
 ]

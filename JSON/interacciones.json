@@ -1,0 +1,42 @@
+[
+    {
+        "usuario": "Ignacio",
+        "id": "nac72",
+        "interaccion": "(Consulta), hay envios gratis de cualquier producto?",
+        "contacto": "Whatsapp",
+        "categoria": "Leal",
+        "fecha": "2024-05-11 22:48:08"
+    },
+    {
+        "usuario": "David",
+        "id": "dv",
+        "interaccion": "(Reclamacion), deberian de subirle las GB a wom",
+        "contacto": "Papa",
+        "categoria": "Regular",
+        "fecha": "2024-05-11 23:45:15"
+    },
+    {
+        "usuario": "Ignacio",
+        "id": "nac72",
+        "interaccion": "(Sugerencia), deberian de incluir mas tipos de paquetes de datos",
+        "contacto": "Whatsapp",
+        "categoria": "Leal",
+        "fecha": "2024-05-11 23:46:18"
+    },
+    {
+        "usuario": "Vegeta",
+        "id": "vg",
+        "interaccion": "(Servicio al cliente), cambiar el nombre de wom, cambiar la m a n",
+        "contacto": "Telegram",
+        "categoria": "Regular",
+        "fecha": "2024-05-11 23:49:17"
+    },
+    {
+        "usuario": "Goku",
+        "id": "gk",
+        "interaccion": "(Consulta), cuanto dura un paquete de datos?",
+        "contacto": "Instagram",
+        "categoria": "Regular",
+        "fecha": "2024-05-11 23:49:53"
+    }
+]

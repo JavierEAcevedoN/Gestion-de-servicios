@@ -1,4 +1,8 @@
 aqui se van a guardar cada una de las exepciones que ocurran en el codigo.
-2024-05-11 03:05:49: invalid literal for int() with base 10: 'grgtrgrggtr'
-2024-05-11 03:05:55: invalid literal for int() with base 10: '556ghgç'
-2024-05-11 03:05:59: invalid literal for int() with base 10: 'guyguygç'
+2024-05-11 20:17:03: ValueError("invalid literal for int() with base 10: 'd'")
+2024-05-11 20:17:05: ValueError("invalid literal for int() with base 10: 'dwa'")
+2024-05-11 20:20:06: ValueError("invalid literal for int() with base 10: ''")
+2024-05-11 20:20:53: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2024-05-11 20:20:57: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2024-05-11 20:20:59: NameError("name 'informes' is not defined")
+2024-05-11 22:23:29: ValueError("invalid literal for int() with base 10: '5}'")

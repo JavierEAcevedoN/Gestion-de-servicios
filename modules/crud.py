@@ -1,5 +1,15 @@
-# modulo de administrador C.R.U.D
+from modules.secondary_funtions import exeptions
+
 def CRUD(datos):
+    # comprobar contraseña para continuar
+    while True:
+        password = input("ingresa la contraseña, para regresar escribe 'salir' ")
+        if password == "administradorClaro312":
+            break
+        elif password == "salir":
+            return datos
+        
+    # modulo de administrador C.R.U.D
     datos = list(datos) 
     while True:
         choice = -1
@@ -15,7 +25,8 @@ ingresa la opcion:
 (5) Listar usuarios.
 (0) Terminar. """))
         
-        except Exception:
+        except Exception as e:
+            exeptions(repr(e))
             print("ese valor no es valido")
 
         if choice == 1:
@@ -54,7 +65,8 @@ def crear_usuario(datos):
             "direccion":direccion.capitalize(),
             "contacto":contacto.capitalize(),
             "categoria": "Nuevo",
-            "servicios": []
+            "servicios": [],
+            "interacciones": []
         }
     )
     print("usuario resgistrado")

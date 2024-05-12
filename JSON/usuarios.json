@@ -8,7 +8,8 @@
         "servicios": [
             "Fibra optica",
             "5gb pospago"
-        ]
+        ],
+        "interacciones": []
     },
     {
         "nombre": "Ignacio",
@@ -19,6 +20,10 @@
         "servicios": [
             "Starlink",
             "Iphone 20"
+        ],
+        "interacciones": [
+            "Consulta",
+            "Sugerencia"
         ]
     },
     {
@@ -31,7 +36,8 @@
             "fibra optica",
             "Iphone 20",
             "Samsung 24s ultra"
-        ]
+        ],
+        "interacciones": []
     },
     {
         "nombre": "Elkin",
@@ -42,7 +48,8 @@
         "servicios": [
             "14gb paquete",
             "Iphone 20"
-        ]
+        ],
+        "interacciones": []
     },
     {
         "nombre": "Angel",
@@ -52,7 +59,8 @@
         "categoria": "Leal",
         "servicios": [
             "14gb paquete"
-        ]
+        ],
+        "interacciones": []
     },
     {
         "nombre": "Carlos",
@@ -62,7 +70,8 @@
         "categoria": "Nuevo",
         "servicios": [
             "14gb paquete"
-        ]
+        ],
+        "interacciones": []
     },
     {
         "nombre": "Lucho",
@@ -72,7 +81,8 @@
         "categoria": "Nuevo",
         "servicios": [
             "5 gb pospago"
-        ]
+        ],
+        "interacciones": []
     },
     {
         "nombre": "Javier",
@@ -83,7 +93,8 @@
         "servicios": [
             "Plan oozaru",
             "Iphone 20"
-        ]
+        ],
+        "interacciones": []
     },
     {
         "nombre": "Goku",
@@ -95,6 +106,9 @@
             "Plan oozaru",
             "Iphone 20",
             "Starlink"
+        ],
+        "interacciones": [
+            "Consulta"
         ]
     },
     {
@@ -106,6 +120,44 @@
         "servicios": [
             "Iphone 20",
             "Starlink"
+        ],
+        "interacciones": [
+            "Servicio al cliente"
+        ]
+    },
+    {
+        "nombre": "Kevin",
+        "id": "kv",
+        "direccion": "Ecuela",
+        "contacto": "Whatsapp",
+        "categoria": "Leal",
+        "servicios": [
+            "Laptop msi gf63 thin"
+        ],
+        "interacciones": []
+    },
+    {
+        "nombre": "Joel",
+        "id": "jl",
+        "direccion": "Apartamento",
+        "contacto": "Telefono",
+        "categoria": "Nuevo",
+        "servicios": [
+            "Laptop msi gf63 thin"
+        ],
+        "interacciones": []
+    },
+    {
+        "nombre": "David",
+        "id": "dv",
+        "direccion": "Campo 16",
+        "contacto": "Papa",
+        "categoria": "Regular",
+        "servicios": [
+            "Wom"
+        ],
+        "interacciones": [
+            "Reclamacion"
         ]
     }
 ]
