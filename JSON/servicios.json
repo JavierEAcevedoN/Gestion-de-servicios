@@ -75,5 +75,12 @@
         "caracteristicas": "muy durable",
         "cantidad": 100000,
         "id": "j7"
+    },
+    {
+        "servicio": "Rtx 7090",
+        "precio": 8000000,
+        "caracteristicas": "rtx 7090 con 32 gb vram, founders edition",
+        "cantidad": 12500,
+        "id": "79"
     }
 ]

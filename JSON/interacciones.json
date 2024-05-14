@@ -38,5 +38,37 @@
         "contacto": "Instagram",
         "categoria": "Regular",
         "fecha": "2024-05-11 23:49:53"
+    },
+    {
+        "usuario": "Camilo",
+        "id": "cm",
+        "interaccion": "(Consulta), las rtx sirven para minar??",
+        "contacto": "3014352644",
+        "categoria": "Nuevo",
+        "fecha": "2024-05-14 00:17:39"
+    },
+    {
+        "usuario": "David",
+        "id": "dv",
+        "interaccion": "(Servicio al cliente), por que estan tan caras la graficas?",
+        "contacto": "Papa",
+        "categoria": "Regular",
+        "fecha": "2024-05-14 00:18:12"
+    },
+    {
+        "usuario": "Javier",
+        "id": "jea21",
+        "interaccion": "(Reclamacion), se me quemo una de las graficas",
+        "contacto": "Telefono",
+        "categoria": "Nuevo",
+        "fecha": "2024-05-14 00:19:14"
+    },
+    {
+        "usuario": "Ignacio",
+        "id": "nac72",
+        "interaccion": "(Sugerencia), agregenle mas vram a la rtx 7090",
+        "contacto": "Whatsapp",
+        "categoria": "Leal",
+        "fecha": "2024-05-14 00:19:41"
     }
 ]

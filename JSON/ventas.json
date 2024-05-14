@@ -68,5 +68,12 @@
         "caracteristicas": "minutos + llamadas + redes sociales ilimitado + 40GB",
         "vendido": 13,
         "id": "w"
+    },
+    {
+        "servicio": "Rtx 7090",
+        "precio": 6000000,
+        "caracteristicas": "rtx 7090 con dlss 7.5 y 30 gb vram founders edition",
+        "vendido": 100,
+        "id": "79"
     }
 ]

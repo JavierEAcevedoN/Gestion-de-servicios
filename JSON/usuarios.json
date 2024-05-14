@@ -7,9 +7,12 @@
         "categoria": "Nuevo",
         "servicios": [
             "Fibra optica",
-            "5gb pospago"
+            "5gb pospago",
+            "Rtx 7090"
         ],
-        "interacciones": []
+        "interacciones": [
+            "Reclamacion"
+        ]
     },
     {
         "nombre": "Ignacio",
@@ -19,7 +22,8 @@
         "categoria": "Leal",
         "servicios": [
             "Starlink",
-            "Iphone 20"
+            "Iphone 20",
+            "Rtx 7090"
         ],
         "interacciones": [
             "Consulta",
@@ -33,9 +37,10 @@
         "contacto": "Telegram",
         "categoria": "Regular",
         "servicios": [
-            "fibra optica",
+            "Fibra optica",
             "Iphone 20",
-            "Samsung 24s ultra"
+            "Samsung 24s ultra",
+            "Rtx 7090"
         ],
         "interacciones": []
     },
@@ -154,10 +159,25 @@
         "contacto": "Papa",
         "categoria": "Regular",
         "servicios": [
-            "Wom"
+            "Wom",
+            "Rtx 7090"
         ],
         "interacciones": [
-            "Reclamacion"
+            "Reclamacion",
+            "Servicio al cliente"
+        ]
+    },
+    {
+        "nombre": "Camilo",
+        "id": "cm",
+        "direccion": "Mausoleo la esperanza",
+        "contacto": "3014352644",
+        "categoria": "Nuevo",
+        "servicios": [
+            "Rtx 7090"
+        ],
+        "interacciones": [
+            "Consulta"
         ]
     }
 ]

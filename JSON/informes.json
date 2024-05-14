@@ -241,5 +241,50 @@
         "cantidad": 3,
         "total": 78000,
         "fecha": "2024-05-11 23:32:47"
+    },
+    {
+        "servicio": "Rtx 7090",
+        "usuario": "Camilo",
+        "precio": 6000000,
+        "caracteristicas": "rtx 7090 con dlss 7.5 y 30 gb vram founders edition",
+        "cantidad": 30,
+        "total": 180000000,
+        "fecha": "2024-05-14 00:10:38"
+    },
+    {
+        "servicio": "Rtx 7090",
+        "usuario": "David",
+        "precio": 6000000,
+        "caracteristicas": "rtx 7090 con dlss 7.5 y 30 gb vram founders edition",
+        "cantidad": 20,
+        "total": 120000000,
+        "fecha": "2024-05-14 00:11:37"
+    },
+    {
+        "servicio": "Rtx 7090",
+        "usuario": "Javier",
+        "precio": 6000000,
+        "caracteristicas": "rtx 7090 con dlss 7.5 y 30 gb vram founders edition",
+        "cantidad": 30,
+        "total": 180000000,
+        "fecha": "2024-05-14 00:12:03"
+    },
+    {
+        "servicio": "Rtx 7090",
+        "usuario": "Ignacio",
+        "precio": 6000000,
+        "caracteristicas": "rtx 7090 con dlss 7.5 y 30 gb vram founders edition",
+        "cantidad": 19,
+        "total": 114000000,
+        "fecha": "2024-05-14 00:12:24"
+    },
+    {
+        "servicio": "Rtx 7090",
+        "usuario": "Mariana",
+        "precio": 6000000,
+        "caracteristicas": "rtx 7090 con dlss 7.5 y 30 gb vram founders edition",
+        "cantidad": 1,
+        "total": 6000000,
+        "fecha": "2024-05-14 00:12:57"
     }
 ]
