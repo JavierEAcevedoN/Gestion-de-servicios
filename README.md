@@ -1,36 +1,36 @@
-# Gestion de servicios
-## Tabla de contenido
-- [Descripcion](#Descripcion)
-- [Caracteristicas](#Caracteristicas)
-- [Tecnologias](#Tecnologias)
-- [Instalacion](#Instalacion)
-- [Uso](#Uso)
-- [Autor](#Autor)
-- [Contacto](#Contacto)
+# Gestion de servicios 🚀
+## Tabla de contenido 📚
+- [Descripcion](#descripcion)
+- [Caracteristicas](#caracteristicas)
+- [Tecnologias](#tecnologias)
+- [Instalacion](#instalacion)
+- [Uso](#uso)
+- [Autor](#autor)
+- [Contacto](#contacto)
+<h3 id="descripcion">Descripcion 📖</h3>
 
-### Descripcion
 Proyecto de getion de servicios sobre la empresa de Claro, que va de gestionar las compras, sugerrencias, clentes, etc.
+<h3 id="caracteristicas">Caracteristicas 💡</h3>
 
-### Caracteristicas
 Todo esta hecho en python 3.
+<h3 id="tecnologias">Tecnologias 💻</h3>
 
-### Tecnologias
 - Python
+<h3 id="instalacion">Instalacion 💾</h3>
 
-### Instalacion
 Clonar el repositorio
 ```sh
 https://github.com/JavierEAcevedoN/Gestion-de-servicios.git
 ```
+<h3 id="uso">Uso ✋</h3>
 
-### Uso
 Ejecutar el main.py
 ```sh
 python3 main.py
 ```
+<h3 id="autor">Autor 👤</h3>
 
-### Autor
 - [JavierEAcevedoN](https://github.com/JavierEAcevedoN)
+<h3 id="contacto">Contacto 📱</h3>
 
-### Contacto
 - Linkedin: [Javier Eduardo Acevedo Noguera](https://www.linkedin.com/in/javier-eduardo-acevedo-noguera)
